@@ -22,3 +22,4 @@ Victor.mostrar_info()
 print(Goku.nombre)
 print(Vegeta.nombre)
 print(Vegeta.__poder)
+
