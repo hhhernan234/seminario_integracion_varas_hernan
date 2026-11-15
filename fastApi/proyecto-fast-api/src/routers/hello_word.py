@@ -12,7 +12,7 @@ class Mensaje(BaseModel):
 @router.get("/")
 def read_root() -> dict[str, str]:
     return {"mensaje": "Hola desde FastAPI + uv",
-            "autor": "Ing.Roberto Rocha",
+            "autor": "Ing.Hernán Varas",
             "version": "0.1.0"}
 
 @router.get("/roberto")
